@@ -5,3 +5,4 @@ class Form(db.Model):
     lastname = db.Column(db.String(200), nullable=False)
     cars = db.Column(db.String(200), nullable=True)
     fav_language = db.Column(db.String(200), nullable=True)
+    create_date = db.Column(db.DateTime(), nullable=True)

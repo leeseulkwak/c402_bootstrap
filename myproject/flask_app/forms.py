@@ -7,3 +7,4 @@ class UserForm(FlaskForm):
     lastname = StringField('lastname', validators=[DataRequired(), Length(min=3, max=25)])
     cars = StringField('cars', validators=[DataRequired(), Length(min=3, max=25)])
     fav_language = StringField('fav_language', validators=[DataRequired(), Length(min=3, max=25)])
+    
