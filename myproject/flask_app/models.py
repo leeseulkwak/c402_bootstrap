@@ -6,3 +6,4 @@ class Form(db.Model):
     cars = db.Column(db.String(200), nullable=True)
     fav_language = db.Column(db.String(200), nullable=True)
     create_date = db.Column(db.DateTime(), nullable=True)
+    filename = db.Column(db.String(100))
